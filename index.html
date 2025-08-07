@@ -15,7 +15,15 @@
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
         .gradient-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(
+                135deg,
+                #00A859 0%,          /* Verde */
+                #00A859 10%,         /* Transição mais rápida para vermelho */
+                #EE2944 20%,         /* Vermelho até 20% */
+                #FEDD00 20%,        /* Amarelo começa aqui e vai até 90% */
+                #FEDD00 100%       /* Amarelo ocupa 80% (ajustado para mais) */
+            );
+            height: 100vh;
         }
     </style>
 </head>
